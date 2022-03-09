@@ -18,7 +18,7 @@
         <input id="name" name="name" type="text"><br>
         <div th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></div>
         <label for="email">メール:</label>
-        <input id="email" name="email" type="text"><br>
+        <input id="email" name="email" typeB="text"><br>
         <div th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></div>
         <label for="contents">詳細:</label>
         <textarea name="contents" id="contents" rows="3" cols="40" th:field="*{contents}"></textarea><br>
